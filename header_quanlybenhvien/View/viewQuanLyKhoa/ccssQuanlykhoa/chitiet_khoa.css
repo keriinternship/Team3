@@ -1,0 +1,143 @@
+@media only screen and (max-width:  570px ){
+    .bg-collapse{
+        z-index: 999;
+      
+        
+       background-color: var(--color-text);
+   }
+   .navbar-nav a{
+    color: #fff;
+    background-color: var(--color-text);
+   }
+
+}
+@media only screen and (max-width:  768px ){
+    .nav-colum{
+        display: none;
+    }
+  
+    .news{
+        display: none;
+    }
+    .info-khoa{
+        margin-top: 80px;
+    }
+    .info-khoa img{
+        height: 150px;
+    }
+    .info-khoa h2{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .navbar .logo{
+        width: 150px;
+        height: 150px;
+    }
+    .top-header{
+        display: none;
+    }
+   
+}
+.navbar-nav{
+    font-weight: bold;
+}
+.row a{
+    text-decoration: none;
+}
+.hinh img{
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+}
+:root{
+    --color-bg: #80b068;
+    --color-title: #0000CD;
+    --color-text: 	#1E90FF;
+}
+.avatar{
+    text-align: center;
+    width: 150px;
+    margin: 10px;
+}
+.nhan-vien{
+
+    margin-top: 50px;
+    width: 800px;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+.nhan-vien ul{
+    list-style: none;
+    display: flex;
+}
+.nhan-vien ul li{
+    text-align: center;
+}
+
+.info-khoa h2{
+    margin-top: 20px;
+    color: var(--color-title);
+}
+.item-nav a{
+   margin-top: -50px;
+   margin-bottom: -20px;
+    
+}
+.info-khoa h2 a{
+    text-decoration: none;
+    color: var(--color-text);
+}
+.avatar h6 a{
+    text-decoration: none;
+    color: var(--color-text);
+    
+}
+.info-khoa h6 a{
+    text-decoration: none;
+    color: var(--color-text);   
+}
+ .bg-collapse{
+     z-index: 999;
+}
+.nav-colum{
+    background: var(--color-bg);
+    color: #fff;
+  
+}
+.text-cv{
+    color: var(--color-title);
+}
+.nav-colum h4{
+    margin-left: -30px;
+}
+
+.nav-colum li{
+    list-style: none;
+    border-top:1px solid #fff;
+}
+.nav-colum li:hover a{
+    background: #fff;
+    color: #000;
+   
+}
+.nav-colum a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    border:1px solid var(--color-bg);
+}
+.news{
+    background:var(--color-bg) ;
+    color: #fff;
+    padding: 10px 10px;
+
+}
+.contact span a{
+    text-decoration: none;
+    color: #fff;
+}
+.login span a{
+    text-decoration: none;
+    color: #fff;
+}

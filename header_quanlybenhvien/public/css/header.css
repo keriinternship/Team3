@@ -1,0 +1,455 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+:root{
+    --height--header:50px;
+    --color--primary:#007bff;
+}
+header{
+    width: 100%;
+    z-index: 100;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding-bottom: 20px;
+}
+.header_top{
+    width: 100%;
+    height: var(--height--header);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow:  0px 0px 5px -1px gray;
+}
+.header-logo{
+    width: 100px;
+    height: var(--height--header);
+    background-image: url('../images/logobv.png');
+    background-size: cover;
+    background-position: 5px;
+    background-repeat: no-repeat;
+}
+.header-option{
+    width: 500px;
+    height: 100%;
+    display: flex;
+}
+.option{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inforSelect,.messSelect{
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    display: none;
+    transform-origin: top right;
+    box-shadow: 0px 0px 2px 1px gray;
+    z-index: 9999;
+    background-color: azure
+}
+.optionimg{
+    width: 30%;
+    height: 50%;
+    position: relative;
+}
+.messSelect::before ,.inforSelect::before{
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    right: 10px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent gray transparent;
+}
+.header_inforSelect{
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    padding: 5px;
+    border-bottom: 1px solid green;
+    background-color: green;
+    border-radius: 5px 5px 0 0;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    color: white;
+}
+.content_inforSelect{
+    width: 100%;
+    height: 75%;
+    background-color: rgba(187, 183, 183,.3);
+}
+.footer_inforSelect{
+    width: 100%;
+    background-color: green;
+    border-radius: 0 0 3px 3px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    padding: 3px 0;
+    cursor: pointer;
+    color: white;
+}
+.footer_inforSelect:hover{
+    background-color: orangered;
+}
+.option_profile{
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    position: relative;
+}
+.img-Amin{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.img-Amin img{
+    width: 100%;
+    height: 100%;
+}
+.messCount{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    position: absolute;
+    top: -5px;
+    right: -4px;
+    background-color: orangered ;
+    color: white;
+    cursor: pointer;
+}
+@keyframes showOption{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes hiddenOption{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+/* content */
+.content{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding: 3px 0;
+}
+.content_inforItem{
+    width: 100%;
+    height: 40px;
+    padding: 0 5px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.img-contentInfor{
+    width: 40px;
+    height: 40px;
+}
+.img-contentInfor img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.information{
+    flex: 1;
+    margin-left: 10px;
+    text-align: justify;
+    font-size: 12px;
+    padding: 3px;
+}
+.Information{
+    position: relative;
+    z-index: 1;
+}
+.profileIcon{
+    font-size: 20px;
+    transform: rotate(45deg);
+}
+.optionProfile_list{
+    position: absolute;
+    top: 105%;
+    right: 50px;
+    display: none;
+    transform-origin: top right;
+    box-shadow: 0 0 2px 0 gray;
+    background-color: white;
+    border-radius: 3px;
+    padding: 3px 0px;
+}
+.inforAdminFrofile{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listOption{
+    margin: 0;
+}
+.listOption_item{
+    list-style-type: none;
+    padding: 3px 10px;
+   border-bottom: 1px solid gray;
+   display: flex;
+   align-items: center;
+}
+.listOption_item>img{
+    margin-right: 10px;
+    width: 20px;
+}
+.listOption_item:last-child{
+    border-bottom: none;
+}
+.listOption_item:hover{
+    background-color: gainsboro;
+}
+@keyframes showrota{
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform:rotate(220deg)
+    }
+}
+@keyframes hiddenrota{
+    0%{
+        transform: rotate(220deg);
+    }
+    100%{
+        transform:rotate(-180deg)
+    }
+}
+@keyframes showOptionProfile{
+    0%{
+        transform: scaleY(0)
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+@keyframes hiddenOptionProfile{
+    0%{
+        transform: scaleY(1)
+    }
+    100%{
+        transform: scaleY(0)
+    }
+}
+/* thanh search */
+nav{
+    padding: 10px 0;
+}
+.navSearch{
+    width: 100%;
+    padding: 20px 0 10px 0;
+}
+#form-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inputlable{
+    width: 50%;
+    padding: 0 10px;
+    border: 1px solid gray;
+    margin: 0px 5px;
+    border-radius: 3px;
+    position: relative;
+}
+.inputlable >input{
+    width: 100%;
+    border: none;
+    height: 100%;
+    background-color: transparent;
+}
+.btn-search{
+    border: none;
+    outline: none;
+    padding: 0 3px;
+    border-radius: 3px;
+    color: white;
+}
+#autocomplete{
+    position: absolute;
+    top: 110%;
+    right: 0;
+    border: 1px solid gray;
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    display: none;
+    background-color: white;
+}
+.autocompleteList{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.autocomplete_link{
+    padding: 5px 10px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.autocomplete_link:hover{
+    background-color: gainsboro;
+}
+.autocomplete_link>a{
+    color: black;
+    text-decoration: none;
+        font-weight: bold;
+}
+.removeRecomment{
+    display: inline-block;
+    width: 20px;
+    height: 100%;
+
+}
+.removeRecomment>img{
+    width: 100%;
+    height: 100%;
+}
+/* thanh nav điều hướng */
+nav{
+    background-color: #e9ecef;
+    position: relative;
+}
+.navOption{
+    border: 1px solid black;
+    border-radius: 0 5px 5px 0;
+    height: 100%;
+}
+.navOptionList{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.navOption_item{
+    padding: 5px 7px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin: 3px 0;
+}
+.navOption_item:first-child{
+    border-top-right-radius: 5px;
+    margin-top: 0;
+}
+.navOption_item>a{
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    margin-left: 10px;
+    font-size: small;
+}
+.navOption_item>img{
+    width: 20px;
+}
+.navOption_item::after{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 0.5px;
+    background-color: white;
+    top: 99%;
+    left: 15%;
+}
+.activeParent{
+    background-color: white;
+}
+a.activeLink{
+    color: blue;
+}
+.navOption_item:hover{
+    background-color: white;
+}
+.navOption_item:hover a{
+    color: blue;
+}
+.ThongKeparent{
+    width: 100px;
+    background-color: var(--color--primary);
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-left:1px solid blue;
+    border-radius: 0 5px 5px 0;
+    z-index: 1;
+    display: none;
+}
+#thongke:hover .ThongKeparent{
+    display: inline;
+}
+.listChild{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.childItem{
+    text-align: left;
+    padding: 3px 0 3px 5px;
+}
+.childItem:first-child{
+    border-radius: 0 5px 0 0;
+}
+.childItem:last-child{
+    border-radius: 0 0 5px 0;
+}
+.childItem>a{
+    color: white;
+    text-decoration: none;
+}
+.childItem:hover{
+    background-color: white;
+}
+
+/* css phần phân trang */
+.pagi{
+    float: right;
+}
+.linkPage{
+    list-style-type: none;
+    display: inline;
+    padding: 5px 7px;
+    border-radius: 3px;
+    color: white;
+    background-color: var(--color--primary);
+    cursor: pointer;
+    margin-right: 5px;
+}
+.linkPage:hover{
+    background-color: rgb(146, 168, 209);
+}
+.paginationActive{
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+}

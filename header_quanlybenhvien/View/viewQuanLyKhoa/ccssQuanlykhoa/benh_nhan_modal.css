@@ -1,0 +1,331 @@
+:root{
+    --color-text: #0000FF;
+    --color-text-2:#1E90FF;
+    --color-text-3:#6600FF;
+}
+/*CSS Form modal delete*/
+.delete-bn{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    display: none;
+   
+}
+.delete-bn .delete-1{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.5;
+    background: #333;
+    position: fixed;
+}
+.delete-bn .delete{
+    padding: 10px 20px;
+    height: 120px;
+    width: 400px;
+    top: 200px;
+    left: 500px;
+    z-index: 999;
+    position: fixed;
+    border-radius: 20px;
+    background: #fff;
+    display: flex;
+    align-items: flex-end;
+}
+.delete-bn .delete h4{
+    top: 20px;
+    left: 30px;
+    position: absolute;
+}
+.delete-bn .delete .choose{
+    margin-bottom: 15px;
+}
+.delete-bn .delete a{
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 10px;
+    margin-bottom: 20px;
+}
+.delete-bn .delete .co{
+   
+    background: green;
+    margin-left: 50px;
+}
+.delete-bn .delete .khong {
+    margin-left: 150px;
+    background: red;
+   
+}
+
+
+
+
+
+/*
+CSS Modal form Thông tin bênh nhân
+*/
+.info-form{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+.info-form .info-1{
+    z-index: -999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   background: #999;
+   opacity: 0.5;
+   
+}
+.info-form .info-bn{
+    height: 520px;
+    width: 1000px;
+    padding: 20px 20px ;
+    border-radius: 20px;
+    position: fixed;
+    top: 100px;
+    left: 250px;
+    z-index: 999;
+    background: #fff;
+    border-radius: 20px;
+    animation: AniInfoBN 1s forwards;
+}
+
+@keyframes AniInfoBN{
+    0%{
+     /* height: 0; */
+    width: 0;
+    opacity: 0;
+    }
+    100%{
+        /* height: 520px; */
+        width: 1000px;
+    }
+}
+/*CSS Form thông tin bênh nhân*/
+.info-bn .edit-bn{
+    font-size: 16px;
+    font-weight: bold;
+ }
+ .info-bn .form-bn .chuc-nang{
+     border-left: 2px dotted #999;
+ }
+ .info-bn .form-bn .thong-tin{
+     border-left: 2px dotted #999;
+ }
+ 
+ .info-bn .chuc-nang a{
+    
+     text-decoration: none;
+     color: var(--color-text);
+     font-weight: bold;
+ }
+ 
+ .info-bn .cn-bn a i{
+     margin-left: 5px;
+     font-size: 25px;
+ }
+ .info-bn .ls-bn{
+     font-weight: bold;
+ }
+ .info-bn li{
+     list-style: none;
+ }
+ 
+ .info-bn h2{
+     color: #0000CD	;
+     display: inline-block;
+     border-bottom: 2px solid #1E90FF;
+ }
+ .info-bn .form-bn{
+     padding: 20px 10px;
+     margin-top: 20px;
+     border: 1px solid #999;
+     background: #66FFFF;
+
+ }
+
+ .info-bn .form-bn span{
+     color: var(--color-text) ;
+ }
+ .info-bn .form-bn .avatar-bn img{
+     width: 151.181px;
+     height: 226.771px;
+ }
+ .info-bn .form-bn .avatar-bn{
+     text-align: center;
+ }
+ .info-bn .chuc-nang a{
+   
+    text-decoration: none;
+    color: var(--color-text);
+    font-weight: bold;
+}
+
+/*
+CSS Form edit bệnh nhân
+*/
+.form-edit-bn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+.form-edit-bn .form-edit-1{
+    z-index: -999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   background: #999;
+   opacity: 0.5;
+}
+.form-edit-bn .form-edit-2{
+    height: 520px;
+    width: 800px;
+    padding: 20px 20px ;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+    z-index: 999;
+    background: #fff;
+    border-radius: 20px;
+    animation: AniFormAdd 0.5s;
+}
+
+.form-edit-bn .form-edit-2 table .input-text{
+    width: 50%;
+}
+.form-edit-bn .form-edit-2 .btn-them{
+    margin-top: 30px ;
+    margin-left: 500px;
+    background: #0000FF;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.form-edit-bn .form-edit-2 h3{
+    color: var(--color-text);
+    display: inline-block;
+    border-bottom: 2px solid #1E90FF;
+    margin-bottom: 30px;
+   
+}
+.form-edit-bn .form-edit-2 label{
+    color: var(--color-text-2);
+}
+.form-edit-bn .form-edit-2 .loai-kham{
+    color: var(--color-text-3);
+}
+
+.form-edit-bn .form-edit-2 .btn-save{
+    margin-top: 20px ;
+    font-weight: bold;
+    float: right;
+    color: #fff;
+    background: var(--color-text);
+}
+.form-edit-bn .form-edit-2 .border-1{
+    margin-top: 20px;
+    border-bottom: 2px solid var(--color-text-2);
+}
+
+/*CSS Modal Add bênh nhând*/
+
+.form-add-bn{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: none;
+}
+.form-add-bn .form-add-1{
+    z-index: -999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+   background: #999;
+   opacity: 0.5;
+}
+.form-add-bn .form-add-2{
+    height: 520px;
+    width: 800px;
+    padding: 20px 20px ;
+    border-radius: 20px;
+    position: fixed;
+    top: 100px;
+    left: 300px;
+    z-index: 999;
+    background: #fff;
+    border-radius: 20px;
+   animation: AniFormAdd 0.5s;
+}
+
+.form-add-bn .form-add-2 table .input-text{
+    width: 50%;
+}
+.form-add-bn .form-add-2 .btn-them{
+    margin-top: 30px ;
+    margin-left: 500px;
+    background: #0000FF;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.form-add-bn .form-add-2 h3{
+    color: var(--color-text);
+    display: inline-block;
+    border-bottom: 2px solid #1E90FF;
+    margin-bottom: 30px;
+   
+}
+.form-add-bn .form-add-2 label{
+    color: var(--color-text-2);
+}
+.form-add-bn .form-add-2 .loai-kham{
+    color: var(--color-text-3);
+}
+.form-add-bn .form-edit-2 .border-1 {
+    text-align: center;
+   background: var(--color-text-2);
+   height: 2px;
+   margin-top: 10px;
+}
+.form-add-bn .form-add-2 .btn-add{
+    margin-top: 20px ;
+    font-weight: bold;
+    float: right;
+    color: #fff;
+    background: var(--color-text);
+}
+.form-add-bn .form-add-2 .border-1{
+    margin-top: 20px;
+    border-bottom: 2px solid var(--color-text-2);
+}
+/*
+Animation form add bệnh nhân
+*/
+@keyframes AniFormAdd{
+    0%{
+        top: -100px;
+    }
+    100%{
+        top: 100px;
+    }
+}

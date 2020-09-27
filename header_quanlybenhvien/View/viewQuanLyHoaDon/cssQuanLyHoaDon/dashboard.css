@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+main{
+    overflow: hidden;   
+}
+.bg-nav{
+    background: #E6E6E6;
+}
+.myRight{
+    margin-top:2rem ;
+    display: flex;
+    float: right;
+    padding-right: 5rem;
+}
+
+.modalContent{
+    padding-left: 10rem;
+}
+
+.main-content a{
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color:#1C1C1C ;
+    width: 3rem;
+    height: 2rem;
+}
+ul li{
+    padding-bottom: 2rem;
+    border-bottom: 0.1rem solid #BDBDBD;
+}
+ul li:hover a{
+    color:black;
+}
+ul li:hover{
+   background: #ffffff;
+   transition: .2s ease-in-out;
+}
+.myIcon a{
+    text-decoration: none;
+    color: #6E6E6E;
+    text-transform: uppercase;
+}
+.context{
+    padding-top: 3rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: thistle;
+    text-align:center;
+    border-bottom: 0.1rem solid #F781F3;
+    margin-right:1.3rem ;
+}
+.bodyCustomer{
+    padding-top: 3rem;
+    margin-right:1.3rem ;
+    margin-left:1.3rem ;
+}
+.StyleCheckbox{
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid white;
+    display: flex;
+}
+.btn-primary{
+    background: darkkhaki;
+    width: 5rem;
+    margin-bottom: 0.5rem;
+}.btn-primary:hover{
+    background: darkturquoise;
+}
+.bg_table{
+    background: blue;
+    border-right: 0.1rem solid white;
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+}
+.bg_body_table{
+    background: #E0F8EC;
+}
+.buttonPlus{
+    float: right;
+    margin-right:1.9rem ;
+}
+#buttonPlus_Programer{
+    width: 18rem;
+    height: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background: blue;
+    color: white;
+    border: 0.05 solid blue;
+    margin-top: 1rem;
+}
+#buttonPlus_Programer:hover{
+    background: white;
+    color: #000;
+    transition: .9s;
+}
+.Modal-Delete-monstage-lck-lpl{
+    border-bottom: 0.1rem solid teal;
+    color: yellowgreen;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.buttonQuestion-Answer{
+    padding-top: 1rem;
+}
+#Yes-yes{
+    float: left;
+    margin-left: 3rem;
+}
+#No-no{
+    float: right;
+    margin-right: 3rem;
+}
+@media (max-width: 380px) {
+    .bg-nav{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    ul{
+        display: none;
+    }
+    .context{
+        background: #ffffff;
+        justify-content: center;
+        text-align: center;    
+    }
+    .myRight{
+        display: flex;
+
+    }
+    .myIcon{
+        position: block;
+    }
+}
+@media screen and (min-width : 377px) and (max-width : 1078px){
+    .myRight{
+        display: none;
+    }
+}

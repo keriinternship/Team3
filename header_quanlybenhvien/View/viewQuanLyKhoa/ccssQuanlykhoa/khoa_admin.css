@@ -1,0 +1,109 @@
+:root{
+    --color-text: #0000FF;
+    --color-text-2:#1E90FF;
+    --color-text-3:#6600FF;
+    --btn-color-1: #00FF00;
+    --btn-color-2: #1E90FF;
+    --btn-color-3: #FF0000;
+}
+.list-khoa, .ten-muc th, .item-bn td{
+    border:1px solid #fff;
+}
+.list-khoa{
+    margin-top: 10px;
+    border-collapse:collapse;
+    width:100%;
+}
+.list-khoa .ten-muc th{
+   
+    padding: 10px 20px;
+    font-size: 18px;
+    color: var(--color-text);
+}
+.ten-muc, .list-item td{
+ 
+    text-align:center;
+    padding:5px 10px;
+}
+.list-khoa .list-item:nth-child(odd){
+   
+    background-color:#eee;
+}
+.list-khoa .list-item:nth-child(even){
+    background-color:white;
+}
+.list-khoa .list-item:nth-child(1){
+    background-color:skyblue;
+}
+.list-khoa .list-item .btn-edit{
+    background: var(--btn-color-1);
+}
+.list-khoa .list-item .btn-delete{
+    background: var(--btn-color-3);
+}
+.list-khoa .list-item .btn-chi-tiet{
+    background: var(--btn-color-2);
+}
+.name-list{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-text);
+}
+.list-khoa .header-list{
+    text-align: center;
+}
+
+.list-khoa .header-list .search-khoa{
+    margin-top: 20px;
+}
+.list-khoa .add-khoa{
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background: var(--color-text-2);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.list-khoa .add-khoa:hover{
+    background: var(--color-text-3);
+}
+input[type="search"]{
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 30px;
+    outline:none;
+    padding: 12px 14px;
+    transition: 0.5s;
+}
+  input[type="search"]:focus{
+      transition: 0.5s;
+    width:400px; 
+}
+.list-khoa .add-khoa a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+
+.list-khoa .btn-cn{
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+.list-khoa #btn-update{
+    background: #32CD32	;
+}
+.list-khoa #btn-update:hover{
+    background: #00FF00	;
+}
+.list-khoa #btn-delete{
+    background: #E00000	;
+}
+.list-khoa #btn-delete:hover{
+    background: red	;
+}
+

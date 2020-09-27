@@ -1,0 +1,115 @@
+.ThongKe_contain{
+    width: 80%;
+    height: 600px;
+    background-color: rgba(223, 206, 206,.3);
+    margin: 0 auto;
+    position: relative;
+    }
+    .lineArrowUp{
+    width: 2px;
+    height : 100%;
+    background-color: black;
+    position: relative;
+    }
+    .tongtien{
+    position: absolute;
+    top: 10px;
+    left: -73px;
+    display: block;
+    width: 70px;
+    }
+    .lineArrowUp::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: 0;
+    left: 5px;
+    transform: skewX(40deg);
+    background-color: black;
+    }
+    .lineArrowUp::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: 0;
+    left: -5px;
+    transform: skewX(-40deg);
+    background-color: black;
+    }
+    .lineArrowDown{
+    width: 100%;
+    height : 2px;
+    background-color: black;
+    position: relative;
+    transform: translateX(90deg);
+    text-align: right;
+    }
+    .lineArrowDown::before{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    bottom: 0;
+    right: 4px;
+    transform: skewX(40deg);
+    background-color: black;
+    }
+    .lineArrowDown::after{
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 10px;
+    top: 0;
+    right: 4px;
+    transform: skewX(-40deg);
+    background-color: black;
+    }
+    .mainChart{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    transform: rotate(180deg);
+    }
+    .mainChart_items{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    }
+    .mainChart_item-chart{
+    width: 50px;
+    background-color: #21bee6;
+    height: 100px;
+    position: relative;
+    }
+    .cost{
+    display: inline-block;
+    transform: rotate(180deg);
+    position: absolute;
+    top: 100%;
+    left: 10px;
+    }
+    .mainChart_item-chart_before{
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    display: inline-block;
+    transform: rotate(180deg);
+    }
+    .selectThongke{
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 10;
+    }
+  select{
+        border: 1px solid black;
+        border-radius: 3px;
+        padding:0  5px;
+    }

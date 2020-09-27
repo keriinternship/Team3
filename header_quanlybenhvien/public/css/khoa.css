@@ -1,0 +1,137 @@
+@media only screen and (max-width:  575px ){
+ 
+    .navbar .logo{
+        width: 50px;
+        height: 50px;
+    }
+    
+}
+@media only screen and (max-width:  768px ){
+ 
+    .navbar .logo{
+        width: 50px;
+        height: 50px;
+    }
+    .top-header{
+        display: none;
+    }
+}
+
+:root{
+    --color-title: #0000CD;
+    --color-text: 	#1E90FF;
+    --color-bg: #80b068;
+}
+.top-header a{
+    text-decoration: none;
+    color: #fff;
+}
+/* .header{
+    z-index: 999;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+
+} */
+.top-header{
+  
+    text-align: center;
+    background: var(--color-bg);
+    height: 50px;
+    line-height: 50px;
+   
+}
+.login .button{
+    margin-left: 30px ;
+}
+.contact span a{
+    text-decoration: none;
+    color: #fff;
+}
+.login span a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar{
+    line-height: 100px;
+    height: 100px;
+}
+.navbar .logo{
+  
+    height: 200px;
+    width: 200px;
+}
+.navbar .name{
+    font-weight: bold;
+}
+.banner{
+    text-align: center;
+    background-image: url(../images/bg-boxthuvien.jpg);
+    height: 350px;
+    /* position: relative; */
+    
+}
+.funtion-bv{
+    background: var(--color-bg);
+    padding: 20px 20px;
+}
+.funtion-bv h6 a{
+    text-decoration: none;
+    color: #fff;
+}
+/* .banner::before{
+    background-color: rgba(0, 0, 0, 0.76);
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+.text h1{
+    color: #fff;
+   opacity: 2;
+} */
+.text {
+    padding-top: 150px;
+}
+.list-khoa{
+    margin-top: 50px;
+}
+.list-khoa h2{
+    font-weight: bold;
+    color: var(--color-title);
+}
+.khoa img{
+    height: 100px;
+}
+.khoa img:hover{
+    transform: scale(1.1);
+    opacity: 0.6;
+}
+.khoa a{
+    color:var(--color-text);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 18px;
+}
+.khoa{
+    margin-top: 40px ;
+}
+.news{
+    margin-top: 20px;
+    background: var(--color-bg) ;
+    color: #fff;
+    padding: 10px 10px;
+}
+.description-hpt h4{
+    font-weight: bold;
+    color: var(--color-title);
+}
+.contact a{
+    text-decoration: none;
+}
+.login a{
+    text-decoration: none;
+}

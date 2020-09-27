@@ -1,0 +1,326 @@
+body{
+    width: 100%;
+   
+}
+
+.nav-item{
+    padding-right: 30px;
+}
+.bg-light{
+    background: #000;
+    
+}
+section#fix_menu_phai {
+    position: fixed;
+   right: 0px;
+    bottom: 20%;
+    z-index: 10; 
+    
+}
+.icon{
+    background: #fff;
+    border: 1px solid #e9e9e9;
+    width: 80%;
+    margin: 0 100px;
+}
+.iconbus,.iconreturn{
+   
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+.icon-headset,.icon-visa{
+   
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 40px;
+}
+.menu-font{
+    padding-top: 10px;
+    font-size: 12px;
+   
+}
+.incon-return{
+   
+    font-size: 40px ;
+    padding: 0px;
+    
+}
+.item_menuphai{
+    width: 82px;
+    height: 82px;
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 5px;
+    position: relative;
+    transition: 0.5s;
+   
+}
+.item_menuphai:hover{
+   background: #c7dfec;
+   color: #fff;
+}
+.item_menuphai:hover a{
+   
+    color: #000;
+ }
+ a{
+     text-decoration: none;
+ }
+.img_itemmenuphai{
+    position: absolute;
+    text-align: center;
+    height: 46px;
+    width: 100%;
+}
+.img_itemmenuphai img{
+    position: relative;
+    height: 40px;
+    width: 50%;
+    
+}
+.name_itemmenuphai {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 5px;
+}
+.name_itemmenuphai a {
+    font-size: 13px;
+    color: #394145;
+    text-transform: uppercase;
+    font-family: robotolight;
+    text-decoration: none;
+}
+    .menu-top{
+    background: #edf2f5;
+    color: #000;
+    font-family: 'Open Sans Condensed', sans-serif;
+ font-weight: bold;
+ display: block;
+   position: fixed;
+   margin-bottom:30px ;
+    z-index: 10; 
+}
+#thongtin_menu{
+    position: relative;
+    right: 100px;
+}
+.benner{
+    width: 100%;
+    height: 100%;
+
+}
+.img-benner{
+    background: url(../images/hinhnen.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.tintuc{
+    position: relative;
+    top: 20px;
+ 
+    background: #d0d6e0;
+    height: auto;
+    
+}
+a{
+    text-decoration: none;
+}
+.name_tin{
+    position: relative;
+    width: 230px;
+    left: 18px;
+    
+    font-weight: 600;
+    display: block;
+    height: 40px;
+    font-size: 15px;
+}
+.block_thongbao{
+    background: #edf2f5;
+    border-radius: 5px;
+    font-family: tahoma, verdana;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 10px 40px;
+    height: 55px;
+    COLOR: #00649D;
+    TEXT-DECORATION: none;
+}
+.block_list{
+    background: #edf2f5;
+border-radius: 3px;
+    font-family: tahoma, verdana;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 10px 40px;
+    COLOR: #00649D;
+    TEXT-DECORATION: none;
+}
+#search{
+    width: 200px;
+}
+.container{
+margin: 0px 30px;
+height: 100%;
+}
+.block_thongbaotrai{
+   padding: 0px;
+
+}
+.tintucphai{
+    background: #edf2f5;
+    padding: 0px;
+}
+
+#img_tin{
+width: 110px;
+height: 110px;
+}
+.tieude{
+    text-align: center;
+    display: inline-block;
+    background: #fff;
+    z-index: 2;
+    font-family: "Times New Roman",serif;
+    font-size: 26px;
+    font-weight: 400;
+    position: relative;
+    text-transform: uppercase;
+    color: #414141;
+    letter-spacing: 1.5px;
+    padding-top: 30px;
+    padding-bottom:50px;
+}
+.tieude::before {
+    content: "";
+    background:url(../images/hinhtype.png);
+    padding: 17px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+    height: 30%;
+    position: absolute;
+    bottom: -7px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: -1;
+}
+ul li a{
+    color:#000;
+}
+footer{
+    position: relative;
+    top: 50px;
+    background-image: url(../images/bac-si-tieu-hoa-gioi.jpg);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+.top_footer{
+   color:#fff;
+   position: relative;
+   height: 400px;
+   text-align: center;
+}
+.top_footer #vanban{
+    color:#fff;
+    position: relative;
+    text-align: center;
+    padding: 100px 100px;
+    z-index: 100;
+    
+    
+ }
+ .img-footer{
+     border-radius: 50%;
+    position: relative;
+    bottom: 100px;
+     z-index: 100;
+ }
+ #img-footer{
+     height: 90px;
+     width: 90px;
+     border-radius: 50%;
+ }
+.top_footer::before{
+    content: "";
+    position: absolute;
+    opacity: 0.9;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.76);
+    bottom: 0;
+    right: 0;
+   left: 0;
+   top: 0;
+}
+
+.centen-footer{
+    background: #edf2f5;
+    
+}
+.item-footer{
+  position: relative;
+  left: 20px;
+
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+.icon-link{
+    cursor: grab;
+    padding-left: 20px;
+}
+.row-footer{
+ padding: 50px 50px;
+}
+/*hien thị trên điện thoại*/
+@media screen and (max-width: 480px)
+{
+  
+    .block_phai {
+        display: none;
+    }
+    .block_centen{
+        max-width: 100%;
+    }
+  
+    #hinh{
+        max-width: 150%;
+    }
+    .block_thongbaophai{
+        display: none;
+    }
+    .top_footer #vanban {
+        color: #fff;
+        position: relative;
+        text-align: center;
+        font-size: 13px;
+        width: 100%;
+        padding: 0px;
+        z-index: 100;
+    }
+    .block_list {
+        background: #edf2f5;
+        border-radius: 3px;
+        width: 290px;
+        height: 4nam0px;
+        font-family: tahoma, verdana;
+        font-weight: bold;
+        font-size: 10px;
+       padding: 0px;
+        COLOR: #00649D;
+        TEXT-DECORATION: none;
+    }
+    #search {
+        width: 100px;
+    }
+}

@@ -1,0 +1,111 @@
+:root{
+    --color-text: #0000FF;
+    --color-text-2:#1E90FF;
+    --color-text-3:#6600FF;
+    --btn-color-1: #00FF00;
+    --btn-color-2: #1E90FF;
+    --btn-color-3: #FF0000;
+}
+.list-bn, .ten-muc th, .item-bn td{
+    border:1px solid #fff;
+}
+.list-bn{
+    margin-top: 10px;
+    border-collapse:collapse;
+    width:100%;
+}
+.list-bn .ten-muc th{
+   
+    padding: 10px 20px;
+    font-size: 18px;
+    color: var(--color-text);
+}
+.ten-muc, .item-bn td{
+ 
+    text-align:center;
+    padding:5px 10px;
+}
+.list-bn .list-item:nth-child(odd){
+   
+    background-color:#eee;
+}
+.list-bn .list-item:nth-child(even){
+    background-color:white;
+}
+.list-bn .list-item:nth-child(1){
+    background-color:skyblue;
+}
+.list-bn .list-item .btn-chi-tiet{
+    background: var(--btn-color-1);
+}
+.list-bn .list-item .btn-delete{
+    background: var(--btn-color-3);
+}
+.list-bn .list-item .btn-lich-su{
+    background: var(--btn-color-2);
+}
+.name-list{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-text);
+}
+.list-benh-nhan .header-list{
+    text-align: center;
+}
+
+/* .list-benh-nhan .header-list .col-md-8 .plus-bn{
+    float: right;
+} */
+.list-benh-nhan .header-list .search-bn{
+    margin-top: 20px;
+}
+.list-benh-nhan .plus-bn{
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 20px;
+    background: var(--color-text-2);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.list-benh-nhan .plus-bn:hover{
+    background: var(--color-text-3);
+}
+input[type="search"]{
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline:none;
+    padding: 12px 14px;
+    transition: 1s;
+}
+  input[type="search"]:focus{
+      transition: 1s;
+    width:400px; 
+}
+.list-benh-nhan .plus-bn a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+    
+}
+.list-benh-nhan .btn-cn{
+    padding: 8px 10px;
+    border-radius: 15px;
+}
+.list-benh-nhan #btn-update{
+    background: #32CD32	;
+}
+.list-benh-nhan #btn-update:hover{
+    background: #00FF00	;
+}
+.list-benh-nhan #btn-delete{
+    background: #E00000	;
+}
+.list-benh-nhan #btn-delete:hover{
+    background: red	;
+}
+

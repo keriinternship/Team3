@@ -1,0 +1,149 @@
+.formAddNhanVien{
+
+}
+.modalThemnhanvien{
+    display: none;
+}
+.hiddenInforthemnhanvien{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+#themnhanvien{
+    border: none;
+    outline: none;
+    padding: 3px;
+    background-color: var(--color--primary);
+    margin-bottom: 3px;
+    float: right;
+    border-radius: 3px;
+    color: white;
+}
+#themnhanvienContent{
+    width: 500px;
+    margin: 20px auto 0;
+    background-color: white;
+    z-index: 1;
+    border-radius: 3px;
+    padding: 20px 10px;
+    position: relative;
+    box-shadow: 0px 1px 0px 5px rgba(0, 0, 0, 0.1);
+}
+label{
+    margin: 0;
+}
+#themhinhnhanvien{
+    display: none;
+}
+#hinhanhnhanvien{
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+#lablehinhanhnhanvien{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.img-chonanhnhanvien{
+    width: 20px;
+    margin-left: 20px;
+}
+.valuehinhanhnhanvien{
+    width: 20%;
+    height: 105px;
+    padding: 5px;
+    background-color:var(--color--primary);
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 3px;
+}
+#showValuethemnhanvien{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+#loainhanvien,#loaikhoanhanvien{
+    border: 1px solid black;
+    padding: 0 10px; 
+    margin: 10px 0;
+    display: inline-block;
+    border-radius: 3px;
+}
+.iconLoaiNhanvien{
+    width: 20px;
+    transform: translateY(-5px);
+}
+.chonloainhanvien{
+    margin-right: 5px;
+}
+.hotennhanvien,.diachinhanvien{
+    width: 75%;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.hotennhanvien>input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+}
+#gioitinhngaysinh{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.chonngaysinh{
+    border: none;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.nhapsodienthoai{
+    width: 100%;
+    border: 1px solid gray;
+    padding: 0 3px;
+    border-radius: 3px;
+}
+.nhapsodienthoai>input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#diachinhanvien{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+#khoanhanvien,#loainhanvienid{
+    width: 78%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    margin-bottom: 10px;
+}
+.cf-addnhanvien{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    outline: none;
+    background-color: var(--color--primary);
+    border-radius: 3px;
+    color: white;
+}
+#loainhanvienid{
+    margin-top: 10px;
+}

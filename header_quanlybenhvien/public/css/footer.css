@@ -1,0 +1,23 @@
+.centen-footer{
+    background: #edf2f5;
+}
+.item-footer{
+    position: relative;
+    left: 20px;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+}
+.icon-link{
+    cursor: grab;
+    padding-left: 20px;
+}
+.row-footer{
+    padding: 50px 50px;
+}
+footer{
+    background-color: #999;
+    padding-top: 30px;
+}

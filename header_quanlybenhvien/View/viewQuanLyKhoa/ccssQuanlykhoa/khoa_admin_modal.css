@@ -1,0 +1,105 @@
+:root{
+    --color-text: #0000FF;
+    --color-text-2:#1E90FF;
+    --color-text-3:#6600FF;
+    --btn-color-1: #00FF00;
+    --btn-color-2: #1E90FF;
+    --btn-color-3: #FF0000;
+}
+.form-add-khoa{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.form-add-khoa .form-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    opacity: 0.8;
+    z-index: -999;
+}
+.form-add-khoa .form-add{
+    border-radius: 20px;
+    border: 3px solid var(--color-text);
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    background: #fff;
+    z-index: 999;
+    padding: 40px 30px;
+}
+.form-add-khoa button{
+    float: right;
+    margin-top: 20px;
+}
+.form-edit-khoa{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.form-edit-khoa .form-edit-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    opacity: 0.8;
+    z-index: -999;
+}
+.form-edit-khoa .form-edit-2{
+    border-radius: 20px;
+    border: 3px solid var(--color-text);
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    background: #fff;
+    z-index: 999;
+    padding: 40px 30px;
+}
+.form-edit-khoa button{
+    float: right;
+    margin-top: 20px;
+}
+/**/
+.form-chi-tiet-khoa{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+}
+.form-chi-tiet-khoa .form-chi-tiet-1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #333;
+    opacity: 0.8;
+    z-index: -999;
+}
+.form-chi-tiet-khoa .form-chi-tiet-2{
+    border-radius: 20px;
+    border: 3px solid var(--color-text);
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    background: #fff;
+    z-index: 999;
+    padding: 40px 30px;
+}
+.form-chi-tiet-khoa button{
+    float: right;
+    margin-top: 20px;
+}

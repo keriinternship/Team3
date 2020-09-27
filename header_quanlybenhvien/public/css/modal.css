@@ -1,0 +1,75 @@
+.modalAuthen,.modal_cf_delete{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    background-color: rgba(148, 144, 144, 0.5);
+}
+.Modaldirect{
+    display: none;
+}
+.Modalinformation{
+    display: none;
+    animation: aniInfor 0.45s ease-in;
+}
+@keyframes aniInfor{
+    0%{
+        transform: scale(0,0);
+    }
+    100%{
+        transform: scale(1,1);
+    }
+}
+.hiddenInfor{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+.modalLogin{
+    width: 400px;
+    background-color: white;
+    margin: 100px auto;
+    border-radius: 5px;
+    padding-bottom: 10px;
+}
+.modalLogin>p{
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--color--primary);
+    border-radius: 5px 5px 0 0  ;
+    color: white;
+}
+.modalLoginContent{
+    text-align: center;
+}
+.btnConfirm{
+   margin-top: 15px;
+}
+.btnLogin{
+    border: none;
+    outline: none;
+    padding: 3px;
+    width: 70px;
+    text-align: center;
+    margin: 0 5px;
+    border-radius: 5px;
+    color: white;
+}
+.btnOk,.btn_cf_delete{
+    background-color: green;
+}
+.btnCanCle{
+    background-color: red;
+
+}
+.Modal_cf_deleteNhanVien{
+    display: none;
+}
+.btn-cc_delete{
+    background-color: red;
+}

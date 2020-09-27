@@ -1,0 +1,49 @@
+.container{
+    margin-top: 10px;
+    box-shadow: 0px 2px 23px 5px #848484;
+    border-radius:  10px;
+    
+}
+/* tiêu đề */
+.tieude{
+    text-align: center;
+}
+/* Kê Thuốc */
+.PDT-Button-kethuoc{
+    margin-left: 100px;
+    
+}
+
+.PDT-Button-kethuoc a{
+    background-color: #80b068;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.PDT-Button-kethuoc a:hover{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+/* xuatphieu */
+.PDT-Button-xuatphieu{
+    margin-top: 10px;
+    text-align: right;
+}
+
+.PDT-Button-xuatphieu a{
+    background-color: #80b068;
+    color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+
+.PDT-Button-xuatphieu a:hover{
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
